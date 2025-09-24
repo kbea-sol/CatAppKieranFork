@@ -9,6 +9,7 @@ fun main() {
 
     val flathead = Cat("Flathead", 7 , 10)
     val cupra = Cat("Cupra", 2, 7)
+    val steven = Cat("Steven", 4, 15)
 
     flathead.eat()
     flathead.eat()
@@ -22,7 +23,7 @@ fun main() {
 
     val cat1 = catReproductionProgram(flathead, cupra)
     val cat2 = catReproductionProgram(cupra, clyde)
-    val cat3 = catReproductionProgram(binnie, cat1)
+    val cat3 = catReproductionProgram(steven, cat1)
     val cat4 = catReproductionProgram(cat3, cat2)
     println(cat1)
     println(cat2)
