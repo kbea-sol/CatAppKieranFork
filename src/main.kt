@@ -6,17 +6,17 @@ fun main() {
     println(binnie)
     println(clyde)
 
-    val flathead = Cat("Flathead", 8 , 7)
-    val other = Cat("Other", 16, 23)
+    val flathead = Cat("Flathead", 7 , 10)
+    val cupra = Cat("Cupra", 2, 7)
 
     flathead.eat()
     flathead.eat()
     println(flathead)
 
-    other.walk()
-    other.walk()
-    other.walk()
-    other.walk()
-    println(other)
+    cupra.walk()
+    cupra.walk()
+    cupra.walk()
+    cupra.walk()
+    println(cupra)
 
 }
